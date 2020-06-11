@@ -1,0 +1,419 @@
+@media (min-width: 320px) and (max-width: 480px) {}
+
+@media (min-width: 320px) and (max-width: 568px) {}
+
+@media (min-width: 414) and (max-width: 736) {}
+
+@media (min-width: 600) and (max-width: 800) {}
+
+@media (min-width: 768) and (max-width: 1024) {}
+
+@media (min-width: 800) and (max-width: 1280) {}
+
+@media (min-width: 1080) and (max-width: 1920) {}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    .menu {
+        text-align: right;
+    }
+    .header-content {
+        padding-top: 15px;
+    }
+    .header-content h4 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .header-content h2 {
+        font-size: 46px;
+        padding-bottom: 60px;
+    }
+    .header-content h2 {
+        padding-bottom: 45px;
+    }
+    #header-area {
+        padding-top: 50px;
+        height: 78vh;
+    }
+    #development-part {
+        padding: 20px 0;
+    }
+    .service-content h2 {
+        font-size: 40px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .service-content p {
+        color: #777777;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .service-content .first-para {
+        padding-bottom: 5px;
+    }
+    .service-img {
+        padding-top: 3%;
+    }
+    #branding-part {
+        padding: 10px 0;
+    }
+    .service-img {
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+    #feature-part {
+        padding: 0;
+    }
+    .feature-icon {
+        margin: auto;
+    }
+    .feature-content {
+        text-align: center;
+    }
+    .feature-content h2 {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .feature-info {
+        padding-top: 1rem !important;
+    }
+    .feature-content p {
+        font-size: 17px;
+        line-height: 23px;
+        width: 100%;
+        padding: 0 60px;
+    }
+    #client-part {
+        padding: 26px 0;
+        background-color: #f5f0f0;
+    }
+    .client-title h2 {
+        font-size: 45px;
+    }
+    .client-title {
+        padding-bottom: 15px;
+    }
+    .client-info {
+        width: 100%;
+        padding: 38px 30px 38px 30px;
+    }
+    .client-img img {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .client-info q {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .client-info q {
+        font-size: 15px;
+    }
+    .client-part-second {
+        padding-top: 30px;
+    }
+    .client-info-second {
+        width: 100%;
+        padding: 38px 30px 38px 30px;
+    }
+    .client-info-second q {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .client-info-second p {
+        font-size: 15;
+    }
+    .client-img2 {
+        padding-top: 35px;
+    }
+    #team-part {
+        padding: 35px 0;
+    }
+    .common-title p {
+        padding-bottom: 25px;
+    }
+    .tem-info {
+        padding-bottom: 30px;
+    }
+    .tem-part-bottom p {
+        padding: 0% 10%;
+    }
+    #footer-part {
+        padding: 20px 0;
+        background-color: #7690c5;
+    }
+    .contact-address ul {
+        text-align: center;
+    }
+    .pt {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem;
+    }
+    .btn-custome2 {
+        width: 100%;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .menu {
+        text-align: right;
+    }
+    .header-content {
+        padding-top: 15px;
+    }
+    .header-content h4 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .header-content h2 {
+        font-size: 46px;
+        padding-bottom: 60px;
+    }
+    .header-content h2 {
+        padding-bottom: 45px;
+    }
+    #header-area {
+        padding-top: 50px;
+        height: 78vh;
+    }
+    #development-part {
+        padding: 20px 0;
+    }
+    .service-content h2 {
+        font-size: 40px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .service-content p {
+        color: #777777;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .service-content .first-para {
+        padding-bottom: 5px;
+    }
+    .service-img {
+        padding-top: 3%;
+    }
+    #branding-part {
+        padding: 10px 0;
+    }
+    .service-img {
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+    #feature-part {
+        padding: 0;
+    }
+    .feature-icon {
+        margin: auto;
+    }
+    .feature-content {
+        text-align: center;
+    }
+    .feature-content h2 {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .feature-info {
+        padding-top: 1rem !important;
+    }
+    .feature-content p {
+        font-size: 17px;
+        line-height: 23px;
+        width: 100%;
+        padding: 0 60px;
+    }
+    #client-part {
+        padding: 26px 0;
+        background-color: #f5f0f0;
+    }
+    .client-title h2 {
+        font-size: 45px;
+    }
+    .client-title {
+        padding-bottom: 15px;
+    }
+    .client-info {
+        width: 100%;
+        padding: 38px 30px 38px 30px;
+    }
+    .client-img img {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .client-info q {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .client-info q {
+        font-size: 15px;
+    }
+    .client-part-second {
+        padding-top: 30px;
+    }
+    .client-info-second {
+        width: 100%;
+        padding: 38px 30px 38px 30px;
+    }
+    .client-info-second q {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .client-info-second p {
+        font-size: 15;
+    }
+    .client-img2 {
+        padding-top: 35px;
+    }
+    #team-part {
+        padding: 35px 0;
+    }
+    .common-title p {
+        padding-bottom: 25px;
+    }
+    .tem-info {
+        padding-bottom: 30px;
+    }
+    .tem-part-bottom p {
+        padding: 0% 10%;
+    }
+    #footer-part {
+        padding: 20px 0;
+        background-color: #7690c5;
+    }
+    .contact-address ul {
+        text-align: center;
+    }
+    .pt {
+        padding-top: 1rem !important;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #header-area {
+        height: 96vh;
+    }
+    .menu {
+        text-align: right;
+    }
+    .header-content h2 {
+        font-size: 60px;
+        padding-bottom: 50px;
+    }
+    .header-content {
+        padding-top: 50px;
+    }
+    #development-part {
+        padding: 50px 0;
+    }
+    .service-content h2 {
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .service-content .first-para {
+        padding-bottom: 8px;
+    }
+    .service-content p {
+        font-size: 17px;
+    }
+    .service-img {
+        padding-top: 4%;
+    }
+    #branding-part {
+        padding: 25px 0;
+    }
+    #feature-part {
+        padding: 20px 0;
+    }
+    .feature-icon {
+        margin-left: 118px;
+        margin-bottom: 18px;
+    }
+    .feature-info {
+        padding-top: 3rem !important;
+        text-align: center;
+    }
+    .feature-content p {
+        font-size: 17px;
+        line-height: 23px;
+        width: 100%;
+        padding: 0 20px;
+    }
+    #client-part {
+        padding: 30px 0;
+    }
+    .client-title {
+        padding-bottom: 25px;
+    }
+    .client-img img {
+        margin-bottom: 25px;
+    }
+    .client-part-second {
+        padding-top: 50px;
+    }
+    .client-info-second {
+        margin-bottom: 40px;
+    }
+    #team-part {
+        padding: 40px 0;
+    }
+    .common-title p {
+        padding-bottom: 30px;
+    }
+    .tem-info {
+        padding-bottom: 35px;
+    }
+    .tem-part-bottom p {
+        padding: 0 21%;
+    }
+    #footer-part {
+        padding: 30px 0;
+        background-color: #7690c5;
+    }
+    .contact-address {
+        padding-bottom: 26px;
+    }
+    .pt {
+        padding-top: 1rem !important;
+    }
+    .comment-area textarea {
+        /* padding-right: 23%; */
+    }
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #header-area {
+        height: 122vh;
+    }
+    .feature-icon {
+        margin-left: 25px;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+    #header-area {
+        background-image: url(../img/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 122vh;
+        padding: 50px 0 100px 0;
+        position: relative;
+    }
+}

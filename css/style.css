@@ -352,14 +352,14 @@ nav {
 /* team part end */
 
 
-/* contact part start */
+/* footer part start */
 
-#contact-part {
-    padding: 80px 0;
+#footer-part {
+    padding: 80px 0 20px 0;
     background-color: #7690c5;
 }
 
-.contact-title h2 {
+.contact-content h2 {
     color: #ffffff;
     font-size: 55px;
     font-weight: 300;
@@ -367,10 +367,24 @@ nav {
     padding-bottom: 8px;
 }
 
-.contact-title p {
+.contact-content p {
     color: #ffffff;
     font-size: 18px;
     /* padding-bottom: 30px; */
+}
+
+.contact-address ul li a {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.contact-address ul li a:hover {
+    text-decoration: none;
+}
+
+.contact-address ul li a i {
+    color: #ffffff;
+    font-size: 30px;
 }
 
 .media-icon i {
@@ -394,27 +408,27 @@ nav {
 .comment-area textarea {
     text-transform: capitalize;
     font-size: 16px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-right: 7px;
-    margin-bottom: 15px;
+    padding: 15px;
+    height: 250px;
 }
 
-.btn-custome {}
+.btn-custome2 {
+    padding: 15px 65px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 19px;
+}
 
-
-/* contact part end */
-
-
-/* footer paer start */
-
-#footer-part {
-    padding: 30px 0;
-    background-color: #7690c5;
+.btn-custome2:hover {
+    background: #ffffff;
+    color: #101010;
 }
 
 #footer-part hr {
     border-top: 1px solid #ffffff;
+    margin-top: 125px;
 }
 
 #footer-part p {
