@@ -7,6 +7,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* header area start */
 
@@ -17,26 +21,24 @@ body {
     background-position: center;
     height: 100vh;
     padding: 50px 0 100px 0;
-    position: relative;
 }
 
-#header-area:after {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(73, 73, 73, 0.3);
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(255, 255, 255);
 }
 
-nav {
-    z-index: 100;
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+    color: rgb(0, 0, 0);
 }
 
 .menu ul li a {
     font-size: 16px;
-    color: #ffffff !important;
+    color: #ffffff;
     font-weight: 700;
     margin-left: 6px;
 }
@@ -45,24 +47,21 @@ nav {
     padding-left: 12px;
 }
 
-.header-content {
-    padding-top: 130px;
-    color: #ffffff !important;
-    position: relative;
-    z-index: 100;
-}
-
 .header-content h4 {
     font-size: 32px;
     font-weight: 300;
-    padding-bottom: 14px;
+    padding: 115px 0 14px 0;
+    cursor: pointer;
+    color: #ffffff;
 }
 
 .header-content h2 {
     font-size: 70px;
     font-weight: 700;
     text-transform: uppercase;
-    padding-bottom: 60px;
+    padding-bottom: 85px;
+    cursor: pointer;
+    color: #ffffff;
 }
 
 .btn-custome {
@@ -72,6 +71,7 @@ nav {
     text-transform: capitalize;
     font-weight: 700;
     font-size: 19px;
+    color: #ffffff;
 }
 
 .btn-custome:hover {
@@ -100,10 +100,12 @@ nav {
     font-size: 55px;
     text-transform: capitalize;
     padding-bottom: 30px;
+    cursor: pointer;
 }
 
 .service-content .first-para {
     padding-bottom: 15px;
+    cursor: pointer;
 }
 
 .service-content p {
@@ -111,10 +113,12 @@ nav {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
+    cursor: pointer;
 }
 
 .service-img {
     padding-top: 8%;
+    cursor: pointer;
 }
 
 
@@ -130,6 +134,7 @@ nav {
 .feature-content h2 {
     color: #222222;
     font-size: 25px;
+    cursor: pointer;
 }
 
 .feature-content p {
@@ -137,6 +142,7 @@ nav {
     font-size: 15px;
     line-height: 23px;
     width: 72%;
+    cursor: pointer;
 }
 
 .feature-icon {
@@ -145,6 +151,7 @@ nav {
     background: #222;
     border-radius: 50%;
     margin-left: 50px;
+    cursor: pointer;
 }
 
 .feature-icon i {
@@ -174,7 +181,7 @@ nav {
     font-weight: 300;
     font-size: 55px;
     text-transform: capitalize;
-    /* padding-bottom: 5px; */
+    cursor: pointer;
 }
 
 .client-title p {
@@ -182,6 +189,7 @@ nav {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
+    cursor: pointer;
 }
 
 .client-img img {
@@ -189,22 +197,27 @@ nav {
     width: 200px;
     height: 200px;
     margin-top: -17px;
-    border: 3px solid #E8A794;
+    border: 3px solid #56617D;
+    cursor: pointer;
+}
+
+.client-img img:hover {
+    border: 3px solid #242527;
+    cursor: pointer;
 }
 
 .client-info {
     border: 1px solid #dddddd;
-    width: 690px;
+    width: 80%;
     height: 175px;
     background: #fff;
-    position: relative;
     padding: 35px 75px;
 }
 
 .client-info::before {
     content: '';
     position: absolute;
-    right: 100%;
+    right: 98%;
     top: 40%;
     width: 0;
     height: 0;
@@ -218,6 +231,7 @@ nav {
     font-size: 22px;
     font-weight: 400;
     line-height: 30px;
+    cursor: pointer;
 }
 
 .client-info p {
@@ -226,7 +240,7 @@ nav {
     font-weight: 400;
     padding-top: 10px;
     text-align: left;
-    padding-left: 35px;
+    cursor: pointer;
 }
 
 .client-part-second {
@@ -234,12 +248,12 @@ nav {
 }
 
 .client-info-second {
-    width: 690px;
-    height: 175px;
+    width: 80%;
     border: 1px solid #dddddd;
     background: #ffffff;
-    position: relative;
     padding: 35px 75px;
+    text-align: right;
+    margin-left: 10%;
 }
 
 .client-info-second::after {
@@ -247,7 +261,7 @@ nav {
     position: absolute;
     width: 0;
     height: 0;
-    left: 100%;
+    left: 88.5%;
     top: 40%;
     border-top: 13px solid transparent;
     border-left: 26px solid #ffffff;
@@ -259,6 +273,7 @@ nav {
     font-size: 22px;
     font-weight: 400;
     line-height: 30px;
+    cursor: pointer;
 }
 
 .client-info-second p {
@@ -266,8 +281,7 @@ nav {
     font-size: 17px;
     font-weight: 400;
     padding-top: 10px;
-    text-align: left;
-    padding-left: 35px;
+    cursor: pointer;
 }
 
 .client-img2 img {
@@ -275,7 +289,13 @@ nav {
     width: 200px;
     height: 200px;
     margin-top: -17px;
-    border: 3px solid #D49C62;
+    border: 3px solid #CAC309;
+    cursor: pointer;
+    margin-left: -23%;
+}
+
+.client-img2 img:hover {
+    border: 3px solid #DB6118;
 }
 
 
@@ -286,6 +306,10 @@ nav {
 
 #company-brand {
     padding: 60px 20px;
+}
+
+.brand {
+    cursor: pointer;
 }
 
 
@@ -304,12 +328,14 @@ nav {
     font-size: 55px;
     font-weight: 300;
     text-transform: capitalize;
+    cursor: pointer;
 }
 
 .common-title p {
     color: #777777;
     font-size: 18px;
     padding-bottom: 70px;
+    cursor: pointer;
 }
 
 .tem-info {
@@ -325,6 +351,7 @@ nav {
     height: 200px;
     border-radius: 50%;
     border: 6px solid #ffffff;
+    cursor: pointer;
 }
 
 .tem-description p {
@@ -336,10 +363,14 @@ nav {
     color: #ffffff;
     width: 45px;
     height: 45px;
-    border: 2px solid #ffffff;
+    border: 2px solid #797979;
     border-radius: 50%;
     font-size: 22px;
     line-height: 40px;
+}
+
+.social-media-icon ul li a i:hover {
+    border: 2px solid #ffffff;
 }
 
 .tem-part-bottom p {
@@ -370,7 +401,6 @@ nav {
 .contact-content p {
     color: #ffffff;
     font-size: 18px;
-    /* padding-bottom: 30px; */
 }
 
 .contact-address ul li a {
@@ -403,6 +433,7 @@ nav {
     text-transform: capitalize;
     color: #dddddd;
     font-size: 16px;
+    border-radius: 2px;
 }
 
 .comment-area textarea {
@@ -410,20 +441,23 @@ nav {
     font-size: 16px;
     padding: 15px;
     height: 250px;
+    border-radius: 2px;
 }
 
 .btn-custome2 {
-    padding: 15px 65px;
-    border: 2px solid #fff;
-    color: #fff;
+    padding: 10px 40px;
+    background: #ffffff;
+    color: #737373;
     text-transform: capitalize;
-    font-weight: 700;
-    font-size: 19px;
+    font-weight: 400;
+    font-size: 17px;
+    border-radius: 2px;
 }
 
 .btn-custome2:hover {
-    background: #ffffff;
-    color: #101010;
+    border: 2px solid #fff;
+    color: #fff;
+    background: none;
 }
 
 #footer-part hr {
