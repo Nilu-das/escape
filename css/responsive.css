@@ -164,8 +164,7 @@
         text-align: center;
     }
     .pt {
-        padding-top: 1rem !important;
-        padding-bottom: 1rem;
+        padding-top: 0 !important;
     }
     .btn-custome2 {
         width: 100%;

@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var scrolltotop = {
         setting: { startline: 100, scrollto: 0, scrollduration: 1e3, fadeduration: [500, 100] },
-        controlHTML: '<img src="img/scroll.png" />',
+        controlHTML: '<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow25.png" />',
         controlattrs: { offsetx: 5, offsety: 5 },
         anchorkeyword: "#top",
         state: { isvisible: !1, shouldvisible: !1 },
